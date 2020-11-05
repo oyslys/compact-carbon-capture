@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../mystyle.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+    <title>Contact</title>
+  </head>
+  <body>
+
+    <div class="topnav" id="myTopnav">
+      <img class="logo" src="../media/c3logo.svg" alt="logo for 3c">
+      <a href="../index.html">Home</a>
+      <a href="../about/index.html">About us</a>
+      <a href="../product/index.html">Product</a>
+      <a href="index.html">Contact</a>
+      <div class="dropdown">
+      </div>
+      <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+
+    <div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Question</label>
+    <select id="country" name="country">
+      <option value="australia">Sale</option>
+      <option value="canada">Meeting</option>
+      <option value="usa">Other</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+
+    <script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
+<div class="footer">
+      <p>Torleif Madsen; CEO Tel: +47 920 43 429 Email: tkm@fjelltg.com <br>Kari Forthun; CTO Tel: +47 938 44 295 Email: kfo@fjelltg.com</p>
+</div>
+
+  </body>
+</html>

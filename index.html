@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <title>Home</title>
+  </head>
+  <body>
+
+
+    <div class="topnav" id="myTopnav">
+        <img class="logo" src="media/c3logo.svg" alt="logo for 3c">
+      <a href="index.html">Home</a>
+      <a href="about/index.html">About us</a>
+      <a href="product/index.html">Product</a>
+      <a href="contact/index.html">Contact</a>
+      <div class="dropdown">
+      </div>
+      <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+
+    <h1 class="h1text">Compact Carbon Capture</h1>
+
+    <div class="row">
+    <div class="column">
+      <h2>What we do?</h2>
+      <p>3C is a groundbreaking new technology for CO2 capture.
+The technology allows for capturing CO2 limited space available. Due to its compactness it could even be placed on top of existing infrastructure or buildings.
+We are reducing the size of the equipment by 75%, without loosing efficiency or increasing pressuredrop!
+</p>
+    </div>
+    <div class="column">
+      <img class="imgprod" src="media/product.jpg" alt="Girl in a jacket" style="width: 100%; height:245px; ">
+    </div>
+    <div class="column">
+      <h2>Equipment</h2>
+      <p>The main reason for such compact capture equipment is that we use G-force instead of gravity to distribute the solvent. This also allows for much more vicose and efficient solvents. Alltogether we are offering CO2 capture equipment with significantly lower CAPEX and OPEX than conventional technology.
+</p>
+    </div>
+  </div>
+
+    <div class="footer">
+      <p>Torleif Madsen; CEO Tel: +47 920 43 429 Email: tkm@fjelltg.com <br>Kari Forthun; CTO Tel: +47 938 44 295 Email: kfo@fjelltg.com</p>
+    </div>
+
+    <script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
+  </body>
+</html>
